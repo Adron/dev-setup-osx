@@ -8,8 +8,15 @@ This is a repo of tools that I use to setup a development machine on OS-X. The e
 
 Setup an Apple ID that can be used for downloads related to patches, updates, Xcode things, Apple Updates, and related content. Create the Apple ID account related to that company to remove yourself from liability for any personal Apple ID content being used on the machine, this insures you're using only company owned products and you're not mistakenly using products that you might have registered on your own Apple ID account. To complete these steps and register an Apple ID follow [these steps](Applie-ID/apple-id.md).
 
-## Homebrew [Step 02]
+## Install Command Line Developer Tools [Step 02]
 
-[Instructions](HomeBrew/homebrew-install.md)
+[Instructions](getting-started/getting-started.md)
 
-Just a one step [installation](HomeBrew/homebrew-install.md).
+The first thing that needs to be done on a brand new freshly received Apple OS-X Computer is to setup the command line developer tools. Just follow these [instructions](getting-started/getting-started.md).
+
+## 
+
+# OS-X References
+
+* [Google Chrome Mac Shortcut Keys](http://compositecode.com/docs/google-chrome-mac-shortcuts/)
+* [Mac OS-X Keys ⌘ (Command), ⌥ (Option), and ^ (Control)](http://compositecode.com/os-x-docs/mac-os-x-keys/)
