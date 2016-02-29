@@ -12,6 +12,7 @@ Once those steps are complete type "git" at the terminal again. This time you'll
 
 [![Step 3](01-dev-machine.png)]
 
-Next clone this repository with the following command.
+Next clone this repository into a path of your choice with the following command. (I often clone this repository into a path called "Codez" for storing all of my cloned code into)
 
-		git clone 
+		git clone https://www.github.com/adron-orange/dev-setup-osx.git
+
