@@ -1,0 +1,19 @@
+Installations:
+
+
+
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install vagrant-manager
+
+
+
+References:
+
+https://gist.github.com/kevinelliott/3135044
+http://sourabhbajaj.com/mac-setup/iTerm/README.html
+
+
+Install Xcode:
+
+https://gist.github.com/phs/6505382
