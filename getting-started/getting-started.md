@@ -13,3 +13,5 @@ Once those steps are complete type "git" at the terminal again. This time you'll
 [![Step 3](01-dev-machine.png)]
 
 Next clone this repository with the following command.
+
+		git clone 

@@ -1,6 +1,6 @@
 # dev-setup-osx
 
-This is a repo of tools that I use to setup a development machine on OS-X. The easiest way to use this repository is to first clone it to your local machine. Then you'll have immediate access locally to all of the scripts and other content needed. To do that follow [these commands to get started]().
+This is a repo of tools that I use to setup a development machine on OS-X. The easiest way to use this repository is to first clone it to your local machine. Then you'll have immediate access locally to all of the scripts and other content needed. To do that follow [these commands to get started](getting-started/getting-started.md).
 
 ## Apple ID [Step 01]
 
