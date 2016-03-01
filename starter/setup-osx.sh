@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-sudo -i
 osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Library/Desktop Pictures/Antelope Canyon.jpg"';
 echo "Showing all files, because you'll need that.";
 defaults write com.apple.finder AppleShowAllFiles YES;
