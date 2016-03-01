@@ -13,7 +13,6 @@ killall Finder 2>/dev/null;
 
 echo "Setting up ~/.bash_profile...";
 touch ~/.bash_profile;
-echo "export PS1=\"\w $ \";" >> ~/.bash_profile;
 
 # install Xcode Command Line Tools
 # https://github.com/timsutton/osx-vm-templates/blob/ce8df8a7468faa7c5312444ece1b977c1b2f77a4/scripts/xcode-cli-tools.sh
