@@ -48,6 +48,7 @@ brew cask install \
 ;
 
 # Install Node Version Manager (nvm) and install latest stable version and 4.3.1.
+# Referenced from http://compositecode.com/docs/the-latest-best-way-to-install-node-js/
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash;
 # Source bash file to enable nvm use.
 source ~/.bash_profile
