@@ -27,7 +27,6 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew install \
   caskroom/cask/brew-cask \
   git \
-  node \
   python \
   wget \
 ;
@@ -47,3 +46,14 @@ brew cask install \
   iterm2 \
   dockertoolbox \
 ;
+
+# Install Node Version Manager (nvm) and install latest stable version and 4.3.1.
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash;
+# Source bash file to enable nvm use.
+source ~/.bash_profile
+# Install last v4 version and stable version.
+nvm install 4.3.1;
+nvm install stable;
+# Set the stable version as default.
+nvm alias default stable;
+
