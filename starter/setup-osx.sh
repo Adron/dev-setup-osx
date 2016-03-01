@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Library/Desktop Pictures/Antelope Canyon.jpg"';
 echo "Showing all files, because you'll need that.";
 defaults write com.apple.finder AppleShowAllFiles YES;
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true;
@@ -20,7 +21,7 @@ killall Finder 2>/dev/null;
 echo "Setting up ~/.bash_profile...";
 touch ~/.bash_profile;
 
-echo "Install Xcode Command Line Tools";
+echo "Install Xcode Command Line Tools. Don't fret, it'll be a few seconds before progress is displayed.";
 # This removes the command prompt GUI nonsense.
 touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress;
 PROD=$(softwareupdate -l |
@@ -58,6 +59,7 @@ brew cask install \
   dockertoolbox \
 ;
 
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Library/Desktop Pictures/Pink Lotus Flower.jpg"';
 echo "Installing Node Version Manager (nvm) and install latest stable version and 4.3.1.";
 echo "  Referenced from http://compositecode.com/docs/the-latest-best-way-to-install-node-js/";
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash;
@@ -76,6 +78,7 @@ docker-machine start default
 docker-machine env default;
 eval $(docker-machine env default);
 
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Library/Desktop Pictures/Shapes.jpg"';
 echo "Pull Docker image for Zookeeper & Exhibitor.";
 echo "  Docker Hub Image => https://hub.docker.com/r/adron/systemic-dockzoo/";
 echo "  Github Repo => https://github.com/Adron/systemic-dockzoo";
