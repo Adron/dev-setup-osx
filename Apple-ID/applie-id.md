@@ -12,6 +12,6 @@ Next you'll need to verify your account by logging into iTunes. On a computer wi
 
 There fill out the information shown on this form and click continue.
 
-[![Apple ID Verification with iTunes](03-apple-id-create-account.jpg)]
+[![Apple ID Verification with iTunes](03-apple-id-create-account.png)]
 
 All done, now you're all set. Return to the main [docs readme](../README.md).
