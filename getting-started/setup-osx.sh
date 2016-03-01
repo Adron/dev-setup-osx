@@ -32,6 +32,7 @@ brew install \
   node \
   python \
   wget \
+  postgres
 ;
 brew tap caskroom/versions;
 brew cask install \
@@ -50,4 +51,5 @@ brew cask install \
   intellij-idea \
   atom \
   iterm2 \
+  dockertoolbox \
 ;
