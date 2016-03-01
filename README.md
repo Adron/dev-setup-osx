@@ -14,9 +14,27 @@ Setup an Apple ID that can be used for downloads related to patches, updates, Xc
 
 This script is designed to install a number of things (listed below). It is also assuming that the OS-X Computer you're about to install all of this on hasn't had a single thing installed on it that didn't come from Apple itself. This script will cleanup and install a number of things specifically for development purposes. To run this script just open a terminal and run the following command. During this command you will be prompted a few times for your password to insure installation succeeds, otherwise it is very low maintenance and one can step away and come back as necessary.
 
-		bash <(curl -s https://raw.githubusercontent.com/adron-orange/dev-setup-osx/master/get-these-sorted/runthis.sh)
+		bash <(curl -s https://raw.githubusercontent.com/adron-orange/dev-setup-osx/master/starter/setup-osx.sh)
 
-## 
+### Tools, IDEs, and Other Software Installed
+
+* git
+* node
+* python
+* wget
+* dropbox
+* firefox
+* google-chrome
+* java
+* sublime-text
+* vagrant
+* vagrant-manager
+* virtualbox
+* webstorm
+* intellij-idea
+* atom
+* iterm2
+* dockertoolbox
 
 # OS-X References
 

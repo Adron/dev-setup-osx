@@ -32,7 +32,6 @@ brew install \
   node \
   python \
   wget \
-  postgres
 ;
 brew tap caskroom/versions;
 brew cask install \
@@ -40,13 +39,10 @@ brew cask install \
   firefox \
   google-chrome \
   java \
-  kindle \
-  spotify \
   sublime-text \
   vagrant \
   vagrant-manager \
   virtualbox \
-  vmware-fusion \
   webstorm \
   intellij-idea \
   atom \
