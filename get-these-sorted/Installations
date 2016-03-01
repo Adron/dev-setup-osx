@@ -1,0 +1,33 @@
+Installations:
+
+
+
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install vagrant-manager
+
+
+
+References:
+
+https://gist.github.com/kevinelliott/3135044
+http://sourabhbajaj.com/mac-setup/iTerm/README.html
+https://github.com/thoughtbot/laptop
+
+Install Xcode:
+
+https://gist.github.com/phs/6505382
+
+
+
+https://github.com/donnemartin/dev-setup#bootstrapsh-script
+https://github.com/donnemartin/dev-setup#bootstrapsh-script
+
+
+
+
+Run script from web.
+
+
+https://github.com/chcokr/osx-init/blob/master/install.sh
+https://github.com/donnemartin/dev-setup
