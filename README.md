@@ -18,6 +18,10 @@ This script is designed to install a number of things (listed below). It is also
 
 		bash <(curl -s https://raw.githubusercontent.com/adron-orange/dev-setup-osx/master/starter/setup-osx.sh)
 
+## Get a "Nick" Registered on IRC [Step 03]
+
+
+
 ### Tools, IDEs, and Other Software Installed
 
 * git
