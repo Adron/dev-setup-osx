@@ -20,18 +20,18 @@ This script is designed to install a number of things (listed below). It is also
 
 ## Get a "Nick" Registered on IRC [Step 03]
 
-
+More info to come.
 
 ### Tools, IDEs, and Other Software Installed
 
 * git
-* Node.js via NVM
+* Node.js 4.x and 5.x via NVM.
 * python
 * wget
 * dropbox
 * firefox
 * google-chrome
-* java
+* java 8
 * sublime-text
 * vagrant
 * vagrant-manager
@@ -40,7 +40,7 @@ This script is designed to install a number of things (listed below). It is also
 * intellij-idea
 * atom
 * iterm2
-* dockertoolbox w/ images: adron/systemic-dockzoo
+* dockertoolbox w/ default VM created.
 
 # OS-X References
 
