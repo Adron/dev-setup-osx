@@ -1,12 +1,8 @@
 Installations:
 
-
-
 brew cask install virtualbox
 brew cask install vagrant
 brew cask install vagrant-manager
-
-
 
 References:
 
@@ -31,3 +27,5 @@ Run script from web.
 
 https://github.com/chcokr/osx-init/blob/master/install.sh
 https://github.com/donnemartin/dev-setup
+
+
