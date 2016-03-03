@@ -1,0 +1,1 @@
+defaults write com.apple.dock static-only -bool TRUE; killall Dock
