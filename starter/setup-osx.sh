@@ -74,9 +74,6 @@ nvm alias default stable;
 
 echo "Docker preparation, creating default VM in Virtual Box."
 docker-machine create default --driver virtualbox;
-docker-machine start default
-docker-machine env default;
-eval $(docker-machine env default);
 
 osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Library/Desktop Pictures/Shapes.jpg"';
 
