@@ -1,0 +1,1 @@
+defaults write com.apple.dock mineffect suck; killall Dock

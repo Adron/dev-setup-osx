@@ -1,0 +1,1 @@
+defaults write com.apple.dock showhidden -bool TRUE; killall Dock

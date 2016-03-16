@@ -1,0 +1,1 @@
+defaults write com.apple.dock autohide-time-modifier -float 1; killall Dock
