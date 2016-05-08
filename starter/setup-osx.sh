@@ -48,10 +48,11 @@ brew cask install \
   firefox \
   google-chrome \
   java \
-  sublime-text \
+  sublime-text3 \
   vagrant \
   vagrant-manager \
   virtualbox \
+  vmware-fusion \
   webstorm \
   intellij-idea \
   atom \
