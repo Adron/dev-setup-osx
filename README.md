@@ -32,9 +32,10 @@ More info to come.
 * firefox
 * google-chrome
 * java 8
-* sublime-text
+* Sublime 3
 * vagrant
 * vagrant-manager
+* VMware Fusion 8.1.0 (will require a key upon launch or use 30-day free trial)
 * virtualbox
 * webstorm
 * intellij-idea
