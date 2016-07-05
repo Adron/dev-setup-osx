@@ -45,5 +45,5 @@ More info to come.
 
 # OS-X References
 
-* [Google Chrome Mac Shortcut Keys](http://compositecode.wordpress.com/docs/google-chrome-mac-shortcuts/)
-* [Mac OS-X Keys ⌘ (Command), ⌥ (Option), and ^ (Control)](http://compositecode.wordpress.com/os-x-docs/mac-os-x-keys/)
+* [Google Chrome Mac Shortcut Keys](http://blog.adron.me/docs/Google-Chrome-Mac-Shortcuts/)
+* [Mac OS-X Keys ⌘ (Command), ⌥ (Option), and ^ (Control)](http://blog.adron.me/docs/Mac-OS-X-Keyboard-Keys/)
