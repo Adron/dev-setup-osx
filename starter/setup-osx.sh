@@ -56,8 +56,7 @@ brew cask install \
   webstorm \
   intellij-idea \
   atom \
-  iterm2 \
-  dockertoolbox \
+  iterm2
 ;
 
 osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Library/Desktop Pictures/Pink Lotus Flower.jpg"';
