@@ -33,13 +33,14 @@ softwareupdate -i "$PROD" -v;
 
 echo "Installing Homebrew, the missing package manager for OS X!"
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
+
 echo "Using brew to install git, python, and wget."
 brew install \
   caskroom/cask/brew-cask \
   git \
   python \
-  wget \
-;
+  wget;
+  
 brew tap caskroom/versions;
 echo "Using brew cask to install dropbox, firefox, chrome, java, sublime, vagrant & manager, " \
   "virtualbox, webstorm, intellij-idea, atom, iterm2, and dockertoolbox.";
@@ -56,8 +57,7 @@ brew cask install \
   webstorm \
   intellij-idea \
   atom \
-  iterm2
-;
+  iterm2;
 
 osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Library/Desktop Pictures/Pink Lotus Flower.jpg"';
 echo "Installing Node Version Manager (nvm) and install latest stable version and 4.3.1.";
