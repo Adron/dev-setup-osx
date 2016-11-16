@@ -21,16 +21,6 @@ killall Finder 2>/dev/null;
 echo "Setting up ~/.bash_profile...";
 touch ~/.bash_profile;
 
-echo "Install Xcode Command Line Tools. Don't fret, it'll be a few seconds before progress is displayed. If this errors, network connectevity is commonly afoul. :-/";
-# This removes the command prompt GUI nonsense.
-touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress;
-PROD=$(softwareupdate -l |
-  grep "\*.*Command Line" |
-  head -n 1 | awk -F"*" '{print $2}' |
-  sed -e 's/^ *//' |
-  tr -d '\n')
-softwareupdate -i "$PROD" -v;
-
 echo "Installing Homebrew, the missing package manager for OS X!"
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
 
