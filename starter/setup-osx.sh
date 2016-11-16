@@ -33,15 +33,13 @@ brew install \
   
 brew tap caskroom/versions;
 echo "Using brew cask to install dropbox, firefox, chrome, java, sublime, vagrant & manager, " \
-  "virtualbox, webstorm, intellij-idea, atom, iterm2, and dockertoolbox.";
+  "virtualbox, webstorm, intellij-idea, atom, and iterm2.";
 brew cask install \
   dropbox \
   firefox \
   google-chrome \
   java \
   sublime-text3 \
-  vagrant \
-  vagrant-manager \
   virtualbox \
   vmware-fusion \
   webstorm \
@@ -61,9 +59,6 @@ nvm install stable;
 # Set the stable version as default.
 echo "  Setting stable Node.js version to default. To determine version type 'node --version'";
 nvm alias default stable;
-
-echo "Docker preparation, creating default VM in Virtual Box."
-docker-machine create default --driver virtualbox;
 
 osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Library/Desktop Pictures/Shapes.jpg"';
 
