@@ -22,7 +22,7 @@ echo "Setting up ~/.bash_profile...";
 touch ~/.bash_profile;
 
 echo "Installing Homebrew, the missing package manager for OS X!"
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 echo "Using brew to install git, python, and wget."
 brew install \
