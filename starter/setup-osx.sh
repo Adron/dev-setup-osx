@@ -39,12 +39,12 @@ brew cask install \
   firefox \
   google-chrome \
   java \
-  sublime-text3 \
   virtualbox \
   vmware-fusion \
   webstorm \
   intellij-idea \
   atom \
+  visual-studio-code
   iterm2;
 
 osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Library/Desktop Pictures/Pink Lotus Flower.jpg"';
