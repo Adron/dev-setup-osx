@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/Adron/dev-setup-osx.png?label=ready&title=Ready)](https://waffle.io/Adron/dev-setup-osx)
 # dev-setup-osx
 
 This is a repo of tools that I use to setup a development machine on OS-X. To dive right in, just run this script here however...
